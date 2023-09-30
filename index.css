@@ -5,13 +5,13 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(136, 207, 224);
+    background-color: rgb(121, 181, 199);
 
 }
 .card{
     width:90% ;
     max-width: 670px;
-    background: linear-gradient(135deg,rgb(185, 238, 115),#6ab5e7);
+    background: linear-gradient(135deg,rgb(233, 134, 4),#6ab5e7);
     color: #292736;
     margin: 100px auto 0;
     border-radius: 20px;
@@ -32,22 +32,23 @@ body {
     
     border: 0;
     outline: 0;
-    background: rgb(69, 160, 235);
-    color:black;
+    background: rgb(129, 183, 226);
+    color:rgb(5, 5, 5);
     padding: 10px 25px;
     height: 60px;
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
-    font-size: 18px;
+    font-size: 20px;
+    font-weight: bold;
   }
   
   .search button {
 
     border: 0;
     outline: 0;
-    background :rgb(76, 141, 226);
-    color: rgb(10, 10, 10);
+    background :rgb(132, 174, 229);
+    color: rgb(39, 31, 31);
     border-radius: 50%;
     width: 60px;
     height: 60px;
