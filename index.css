@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: black;/*backgraound color*/
+    background-color: rgb(136, 207, 224);
 
 }
 .card{
@@ -46,8 +46,8 @@ body {
 
     border: 0;
     outline: 0;
-    background :black;
-    color: black;
+    background :rgb(76, 141, 226);
+    color: rgb(10, 10, 10);
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -104,4 +104,16 @@ body {
     margin-top: 10px;
     display: none;
     }
-  
+    
+    @media (max-width: 450px) { 
+      .search {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .search input {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+    
